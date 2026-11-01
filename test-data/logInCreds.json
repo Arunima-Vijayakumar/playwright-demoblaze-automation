@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "Valid Login",
+    "usernameLogin": "validUserNew",
+    "passwordLogin": "correctPassword",
+    "expectedResult": "success"
+  },
+  {
+    "scenario": "Invalid Username",
+    "usernameLogin": "invalidUser123New",
+    "passwordLogin": "test123",
+    "expectedResult": "User does not exist."
+  },
+  {
+    "scenario": "Invalid Password",
+    "usernameLogin": "validUserNew",
+    "passwordLogin": "wrongPassword",
+    "expectedResult": "Wrong password."
+  }]
+  
